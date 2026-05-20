@@ -11,6 +11,7 @@ import LocationSection from "./components/LocationSection";
 import FinalCTA from "./components/FinalCTA";
 import Footer from "./components/Footer";
 import CartDrawer from "./components/CartDrawer";
+import { Analytics } from "@vercel/analytics/react";
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
       </main>
       <Footer />
       <CartDrawer />
+      <Analytics />
     </div>
   );
 }
