@@ -25,7 +25,7 @@ function MenuCard({ item }) {
       whileHover={{ y: -4 }}
       className="group bg-h-white rounded-2xl overflow-hidden shadow-sm hover:shadow-lg transition-all border border-gray-100"
     >
-      <div className="relative h-40 overflow-hidden bg-h-cream">
+      <div className="relative h-52 sm:h-56 overflow-hidden bg-h-cream">
         <img
           src={item.image || images.menu.default}
           alt={item.name}
@@ -64,9 +64,15 @@ function MenuCard({ item }) {
             }`}
           >
             {added ? (
-              <><Check className="w-4 h-4" />Added</>
+              <>
+                <Check className="w-4 h-4" />
+                Added
+              </>
             ) : (
-              <><Plus className="w-4 h-4" />Add{inCart ? ` (${inCart.qty})` : ""}</>
+              <>
+                <Plus className="w-4 h-4" />
+                Add{inCart ? ` (${inCart.qty})` : ""}
+              </>
             )}
           </motion.button>
         </div>

@@ -32,18 +32,16 @@ export default function AboutSection() {
               All About habibi
             </h2>
             <div className="space-y-4 text-h-red text-lg sm:text-xl leading-relaxed font-telegraf">
+              <p>Each dish tells our story of love:</p>
               <p>
-                Chaque plat raconte notre manière d&apos;aimer :
+                <strong>Pita</strong> is the foundation; <strong>pop</strong> is
+                the vibe;
               </p>
               <p>
-                la <strong>pita</strong>, c&apos;est la base ; le{" "}
-                <strong>pop</strong>, c&apos;est la vibe ;
-              </p>
-              <p>
-                le <strong>love</strong>, c&apos;est la signature.
+                <strong>Love</strong> is the signature.
               </p>
               <p className="pt-4">
-                Un plaisir simple, à prendre sans hésiter.
+                A simple pleasure, to be enjoyed without hesitation.
               </p>
             </div>
 

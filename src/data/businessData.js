@@ -4,7 +4,7 @@ export const businessData = {
   description:
     "Street food solaire, entre Méditerranée et Moyen-Orient. Des recettes qui claquent, une vibe qui colle au cœur.",
   phone: "+212724710852",
-  phoneDisplay: "+212 72-4710852",
+  phoneDisplay: "+212 724 710852",
   whatsapp: "212724710852",
   email: "Contact@habibipita.ma",
   instagram: "https://www.instagram.com/habibipita.ma/",

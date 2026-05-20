@@ -82,14 +82,6 @@ export default function LocationSection() {
                 >
                   Instagram
                 </a>
-                <a
-                  href={businessData.facebook}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="block hover:text-h-red transition-colors"
-                >
-                  Facebook
-                </a>
               </motion.div>
             </motion.div>
 
